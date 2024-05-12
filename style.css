@@ -399,6 +399,12 @@
     width: 180px;
     height: 100px;
   }
+  .col-1 h1 {
+    font-size: 50px;
+  }
+  .col-1 p {
+    font-size: 18px;
+  }
 }
 @media (max-width: 555px) {
   .btn {
@@ -414,9 +420,15 @@
   .signup {
     padding: 6px 28px;
   }
+  .col-1 h1 {
+    width: 100%;
+  }
 }
 
 @media (max-width: 487px) {
+  .col-4 h1 {
+    font-size: 40px;
+  }
   .col-4 img {
     width: 130px;
     height: 80px;
@@ -427,9 +439,31 @@
   .col-question h1 {
     margin-left: 25%;
   }
+  .col-3 h1 {
+    font-size: 40px;
+  }
+  .col-5 h1 {
+    font-size: 50px;
+  }
 }
 @media (max-width: 440px) {
   .col-question h1 {
     margin-left: 17%;
+    font-size: 50px;
+  }
+  .header-2,
+  .header-4 {
+    padding-right: 20px;
+  }
+  .header-3 {
+    padding-right: 40px;
+  }
+}
+@media (max-width: 415px) {
+  .col-question h1 {
+    margin-left: 14%;
+  }
+  .header-3 img {
+    padding-right: 40px;
   }
 }
